@@ -232,6 +232,11 @@ a.site-name {
 		/* create 3 columns 300px wide each */
 		grid-template-columns: 18.75rem 18.75rem 18.75rem;
 
+		/* create two rows at 200px height each */
+		/* grid-template-rows: 12.5rem 12.5rem; */
+
+		grid-template-rows: auto auto;
+
 	}
 
 	.photo-gallery img {
