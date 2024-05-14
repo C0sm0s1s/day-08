@@ -244,6 +244,8 @@ a.site-name {
 		/* grid-template-rows: 12.5rem 12.5rem; */
 
 		/* grid-template-rows: 10rem 300px auto; */
+		gap: 1rem;
+		justify-content: center;
 
 	}
 
@@ -259,6 +261,8 @@ a.site-name {
 	}
 
 	.large-image img {
+		object-fit: cover;
+		object-position: left-bottom;
 
 	}
 
