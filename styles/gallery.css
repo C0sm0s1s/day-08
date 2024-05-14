@@ -230,8 +230,9 @@ a.site-name {
 		display: grid;
 
 		/* create 3 columns 300px wide each */
-		grid-template-columns: 18.75rem 18.75rem 18.75rem;
-
+		/* grid-template-columns: 18.75rem 18.75rem 18.75rem; */
+		/* creating 3 columns of equal width to fill grid container */
+		grid-template-columns: 1fr 1fr 1fr;
 		/* create two rows at 200px height each */
 		/* grid-template-rows: 12.5rem 12.5rem; */
 
