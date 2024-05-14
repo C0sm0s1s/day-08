@@ -232,7 +232,9 @@ a.site-name {
 		/* create 3 columns 300px wide each */
 		/* grid-template-columns: 18.75rem 18.75rem 18.75rem; */
 		/* creating 3 columns of equal width to fill grid container */
-		grid-template-columns: 1fr 1fr 1fr;
+		/* grid-template-columns: 1fr 1fr 1fr; */
+		/* create 3 columns, first 2 will be 300px and the rest will fill the rest */
+		grid-template-columns: repeat(2, 18.75rem) 1fr;
 		/* create two rows at 200px height each */
 		/* grid-template-rows: 12.5rem 12.5rem; */
 
