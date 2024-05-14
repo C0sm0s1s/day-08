@@ -247,6 +247,10 @@ a.site-name {
 		gap: 1rem;
 		justify-content: center;
 
+		/* these are default  */
+		align-items: stretch;
+		justify-items: stretch;
+
 	}
 
 	.photo-gallery img {
